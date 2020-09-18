@@ -13,7 +13,9 @@ GraphNode::~GraphNode()
     //// STUDENT CODE
     ////
     std::cout<<"GraphNode " << _id << " Destructor"<<"\n";
-    delete _chatBot; 
+    // ChatLogic allocated chatbot memory and Chatlogic will deallocate
+    // memory in its destructor. Do not deallocate chatbot here.
+    // delete _chatBot;
 
     ////
     //// EOF STUDENT CODE
