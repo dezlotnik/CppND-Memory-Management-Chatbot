@@ -5,7 +5,6 @@
 
 GraphNode::GraphNode(int id)
 {
-    std::cout<<"GraphNode "<< id << " Constructor"<<"\n";
     _id = id;
 }
 
@@ -13,10 +12,6 @@ GraphNode::~GraphNode()
 {
     //// STUDENT CODE
     ////
-    std::cout<<"GraphNode " << _id << " Destructor"<<"\n";
-    // ChatLogic allocated chatbot memory and Chatlogic will deallocate
-    // memory in its destructor. Do not deallocate chatbot here.
-    // delete _chatBot;
 
     ////
     //// EOF STUDENT CODE
